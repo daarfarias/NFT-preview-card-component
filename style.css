@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.view {
+        width:1440px;
+}
+
+#container {
+  width: 350px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 0 1rem 3rem hsla(0, 0%,0%, 0.5);
+}
+
+#img-div {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 25px;
+}
+
+#img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+ }
+
+.attribution p {
+color: white;
+font-size: 11px;
+text-align: center;
+}
+
+#main-text {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+#main-text:hover {
+color:hsl(178, 100%, 50%);
+}
+
+#secundary-text {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+#box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+margin-bottom: 30px;
+}
+
+#box-one{
+  width: 50%;
+  background-color: ;
+  
+}
+
+#img-box-one {
+  float: left;
+  margin-top: 12px;
+  margin-left:25px;
+  
+}
+
+#text-number {
+  float: inline-start;
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 300;
+    
+}
+
+#box-two {
+  width: 50%;
+  
+}
+
+#img-box-two{
+  float: left;
+  margin-top: 12px;
+  margin-left: 54px;
+}
+
+#days-left-text {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 25px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  text-align: right;
+  
+  
+}
+
+hr {
+  margin-left: 25px;
+  margin-righ: 25px;
+}
+
+#box-three{
+  width: 12%;
+  border-top: solid hsl(215, 32%, 27%);
+  border-width: 0.01em;
+  margin-left: 25px;
+  margin-top: 4px;
+  
+   
+}
+
+#avatar {
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 8px;
+  border: 1px solid white;
+  border-radius: 16px;
+}
+
+
+#box-four{
+  width: 75%;
+  height: 45px;
+  border-top: solid hsl(215, 32%, 27%);
+  border-width: 0.01em;
+  padding-top: 10px;
+  margin-top: 4px;
+  
+  }
+
+#creation {
+  margin-left: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+#name {
+  color: white;
+}
+
+#name:hover {
+ color: hsl(178, 100%, 50%);
+
+
+
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  
+}
+
+ 
+/* For Mobile */
+@media screen and (max-width: 375px) {
+    .view {
+        width: 375px;
+    }
+}
